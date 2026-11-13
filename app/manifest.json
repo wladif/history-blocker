@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "History Blocker",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Automatically removes visits to blocked domains from your browser history.",
 	"permissions": [
 		"history",
@@ -25,7 +25,7 @@
 			}
 		}
 	},
-	"browser_action": {
+	"action": {
 		"default_popup": "popup.html",
 		"default_icon": {
 			"16": "icons/icon16.png",
